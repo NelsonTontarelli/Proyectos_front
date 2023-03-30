@@ -1,0 +1,60 @@
+.container {
+    width: 20em;
+    font-size: 26px;
+    margin: 0 auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.subcontainer {
+    background-color: salmon;
+    padding-top: 0.1em;
+    padding-bottom: 0.8em;
+    text-align: center;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    color: #fff;
+}
+
+#input_text {
+    width: 18em;
+    height: 2em;
+    font-size: 24px;
+    border-radius: 0.5em;
+    border: none;
+}
+
+#button_add {
+    width: 4em;
+    height: 2em;
+    border-radius: 1em;
+    border: none;
+}
+
+#button_add:hover {
+    border: 1px solid rgb(133, 21, 133);
+
+}
+
+#title_todo {
+    text-shadow: rgb(255, 105, 105) 1px 0px 0px, rgb(255, 105, 105) 0.540302px 0.841471px 0px, rgb(255, 105, 105) -0.416147px 0.909297px 0px, rgb(255, 105, 105) -0.989992px 0.14112px 0px, rgb(255, 105, 105) -0.653644px -0.756802px 0px, rgb(255, 105, 105) 0.283662px -0.958924px 0px, rgb(255, 105, 105) 0.96017px -0.279416px 0px
+}
+
+.todo_list {
+    background-color: rgb(236, 236, 236);
+    margin-top: -0.3em;
+    padding-top: 0.2em;
+}
+
+#delete_button {
+    margin-left: 30em;
+    border: none;
+    background-color: transparent;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#delete_button:hover {
+    cursor: pointer;
+}
+
+ul { 
+    list-style: none;
+}
