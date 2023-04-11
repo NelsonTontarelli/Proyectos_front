@@ -10,23 +10,18 @@
 </head>
 
 <body>
+    <header id="creator">By Nelson.T</header>
     <div class="container">
         <div class="subcontainer">
             <h3 id="title_todo">To Do List</h3>
-            <input type="text" placeholder="Title..." id="input_text" onkeydown="addFunct(event)"/>
+            <input maxlength="30" type="text" placeholder="To do..." id="input_text" onkeydown="addFunct(event)"/>
             <button id="button_add" onclick="addFunct(event)">Add</button>
         </div>
         <div class="todo_list">
             <ul id="list_elem">
-                <li>asda<button id="delete_button">X</button></li>
-                <li>s</li>
-                <li>s</li>
-                <li>s</li>
-                <li>s</li>
             </ul>
         </div>
     </div>
-
 </body>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="todolist.js"></script>
